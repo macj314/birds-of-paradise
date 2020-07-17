@@ -45,8 +45,8 @@ There are no known bugs at the time of this update.
 
 ### License
 
-
-
 This software is licensed under the MIT license.
 
-Copyright (c) 2020 **_Jason Macie_**
+All services and content are owned by Cornell Lab of Ornithology.
+
+Copyright (c) 2020 **_Cornell Lab of Ornithology_** **_Jason Macie_**
