@@ -8,6 +8,8 @@
 
 _Hello the sight on this page is meant to show an interactive and fun set of data of birds! Many of us are looking for new things to do at this time as we cannot do all the things we would normally do. I enjoy the sight of birds and would love to make information about them a bit more approachable for people._
 
+**Capstone Proposal:** https://docs.google.com/document/d/1788OmDjax1b34x0jYtJY7ntI1bPtf0rNsJs-Ii6lIrY/edit?usp=sharing
+
 ## Setup Instructions / Specs
 
 ### Setup/Installation Instructions
