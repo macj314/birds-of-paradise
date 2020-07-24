@@ -1,5 +1,5 @@
 import React from 'react';
-import Sightings from './Sightings';
+import Sightings from './components/index';
 
 function App() {
   return (
