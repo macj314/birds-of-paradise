@@ -47,7 +47,8 @@ There are no known bugs at the time of this update.
 
 ### 7/24/2020
 
-* 8:15 - 8:43 Lookup and receive successful query responses for eBirb: region info, subregion list, and recent observations in a region.
+* 8:15am - 8:43am Lookup and receive successful query responses for eBirb: region info, subregion list, and recent observations in a region.
+* 1:30pm - 1:40pm Research data visualization libraries for React.
 
 ### License
 
