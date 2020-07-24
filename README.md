@@ -43,12 +43,13 @@ There are no known bugs at the time of this update.
 * Node Package Manager
 * eBird API
 
-## Research Log
-
-### 7/24/2020
+### Research Log
+<span style="font-family:Cambria">
+#### 7/24/2020
 
 * 8:15am - 8:43am Lookup and receive successful query responses for eBirb: region info, subregion list, and recent observations in a region.
 * 1:30pm - 1:40pm Research data visualization libraries for React.
+</span>
 
 ### License
 
