@@ -4,15 +4,18 @@ import { sightingsByRegion } from '../actions/index';
 
 class Sightings extends React.Component {
   constructor(props) {
+    console.log("SightingsConstructor")
     super(props);
   }
 
   componentDidMount() {
+    console.log("ComponentDidMount")
     const { dispatch } = this.props;
     dispatch(sightingsByRegion());
   }
 
   render() {
+    console.log("in render")
     const { error, isLoading, sightings } = this.props;
     if(error) {
       return <React.Fragment>Error: {error.message}</React.Fragment>;
@@ -24,8 +27,8 @@ class Sightings extends React.Component {
         <React.Fragment>
           {/* <h2></h2> */}
           <ol>
-            {sightings.map((sighting) =>
-              <li key={sighting.subId}>
+            {sightings.map((sighting, index) =>
+              <li key={index}>
                 <h3>{sighting.comName}</h3>
                 <p>{sighting.country}</p>
                 <h3>{sighting.locName}</h3>

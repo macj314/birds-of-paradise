@@ -15,12 +15,12 @@ export const getSightingsFailure = (error) => ({
 });
 
 export const sightingsByRegion = () => {
+  console.log("sightByRegion")
   return dispatch => {
     dispatch(requestSightings);
     return fetch('https://api.ebird.org/v2/data/obs/US-WA-033/recent', {headers: {"X-eBirdApiToken": `${process.env.REACT_APP_API_KEY}`}})
     .then(response => response.json())
-    .then(
-      (jsonifiedResponse) => {dispatch(getSightingsSuccess(jsonifiedResponse.results));})
+    .then((jsonifiedResponse) => {dispatch(getSightingsSuccess(jsonifiedResponse.results));})
     .catch((error) => {
       dispatch(getSightingsFailure(error));
     });
