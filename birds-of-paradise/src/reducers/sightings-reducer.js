@@ -1,24 +1,24 @@
 
-import * as c from './../actions/ActionTypes';
+import * as c from '../actions/ActionTypes';
 
 let initialState = {
   isLoading: false,
-  headlines: [],
+  sightings: [],
   error: null
 }
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case c.REQUEST_HEADLINES:
+    case c.REQUEST_SIGHTINGS:
       return Object.assign({}, state, {
         isLoading: true
       });
-    case c.GET_HEADLINES_SUCCESS:
+    case c.GET_SIGHTINGS_SUCCESS:
       return Object.assign({}, state, {
         isLoading: false,
-        headlines: action.headlines
+        sightings: action.sightings
       });
-    case c.GET_HEADLINES_FAILURE:
+    case c.GET_SIGHTINGS_FAILURE:
       return Object.assign({}, state, {
         isLoading: false,
         error: action.error

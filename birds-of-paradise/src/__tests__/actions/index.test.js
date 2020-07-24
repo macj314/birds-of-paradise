@@ -1,25 +1,25 @@
 import * as actions from './../../actions';
 import * as c from './../../actions/ActionTypes';
 
-describe('headline reducer actions', () => {
-  it('requestHeadlines should create REQUEST_HEADLINES action', () => {
-    expect(actions.requestHeadlines()).toEqual({
-      type: c.REQUEST_HEADLINES
+describe('sighting reducer actions', () => {
+  it('requestSightings should create REQUEST_SIGHTINGS action', () => {
+    expect(actions.requestSightings()).toEqual({
+      type: c.REQUEST_SIGHTINGS
     });
   });
 
-  it('getHeadlinesSuccess should create GET_HEADLINES_SUCCESS action', () => {
-    const headlines = "A headline";
-    expect(actions.getHeadlinesSuccess(headlines)).toEqual({
-      type: c.GET_HEADLINES_SUCCESS,
-      headlines
+  it('getSightingsSuccess should create GET_SIGHTINGS_SUCCESS action', () => {
+    const sightings = "A sighting";
+    expect(actions.getSightingsSuccess(sightings)).toEqual({
+      type: c.GET_SIGHTINGS_SUCCESS,
+      sightings
     });
   });
 
-  it('getHeadlinesFailure should create GET_HEADLINES_FAILURE action', () => {
+  it('getSightingsFailure should create GET_SIGHTINGS_FAILURE action', () => {
     const error = "An error";
-    expect(actions.getHeadlinesFailure(error)).toEqual({
-      type: c.GET_HEADLINES_FAILURE,
+    expect(actions.getSightingsFailure(error)).toEqual({
+      type: c.GET_SIGHTINGS_FAILURE,
       error
     });
   });

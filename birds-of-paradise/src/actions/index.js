@@ -1,15 +1,15 @@
 import * as c from './ActionTypes';
 
-export const requestHeadlines = () => ({
-  type: c.REQUEST_HEADLINES
+export const requestSightings = () => ({
+  type: c.REQUEST_SIGHTINGS
 });
 
-export const getHeadlinesSuccess = (headlines) => ({
-  type: c.GET_HEADLINES_SUCCESS,
-  headlines
+export const getSightingsSuccess = (sightings) => ({
+  type: c.GET_SIGHTINGS_SUCCESS,
+  sightings
 });
 
-export const getHeadlinesFailure = (error) => ({
-  type: c.GET_HEADLINES_FAILURE,
+export const getSightingsFailure = (error) => ({
+  type: c.GET_SIGHTINGS_FAILURE,
   error
 });
