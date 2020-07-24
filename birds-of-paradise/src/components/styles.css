@@ -1,3 +1,7 @@
+.body{
+  background-color: aqua;
+}
+
 /* @import "~react-vis/dist/style";
 
 const data = [
