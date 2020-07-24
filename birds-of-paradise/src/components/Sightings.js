@@ -24,8 +24,8 @@ class Sightings extends React.Component {
         <React.Fragment>
           {/* <h2></h2> */}
           <ol>
-            {sightings.map((sighting, index) =>
-              <li key={index}>
+            {sightings.map((sighting) =>
+              <li key={sighting.subId}>
                 <h3>{sighting.comName}</h3>
                 <p>{sighting.country}</p>
                 <h3>{sighting.locName}</h3>
