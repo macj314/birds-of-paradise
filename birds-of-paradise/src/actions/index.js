@@ -16,13 +16,13 @@ export const getSightingsFailure = (error) => ({
 
 export const sightingsByRegion = () => {
   return dispatch => {
-    dispatch(requestPlaces);
+    dispatch(requestSightings);
     return fetch('https://api.ebird.org/v2/data/obs/US-WA-033/recent', {headers: {"X-eBirdApiToken": `${process.env.REACT_APP_API_KEY}`}})
     .then(response => response.json())
     .then(
-      (jsonifiedResponse) => {dispatch(getPlacesSuccess(jsonifiedResponse.results));})
+      (jsonifiedResponse) => {dispatch(getSightingsSuccess(jsonifiedResponse.results));})
     .catch((error) => {
-      dispatch(getPlacesFailure(error));
+      dispatch(getSightingsFailure(error));
     });
   }
 }
