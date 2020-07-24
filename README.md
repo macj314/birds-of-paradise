@@ -8,7 +8,7 @@
 
 _Hello the sight on this page is meant to show an interactive and fun set of data of birds! Many of us are looking for new things to do at this time as we cannot do all the things we would normally do. I enjoy the sight of birds and would love to make information about them a bit more approachable for people._
 
-**[Capstone Proposal](https://docs.google.com/document/d/1788OmDjax1b34x0jYtJY7ntI1bPtf0rNsJs-Ii6lIrY/edit?usp=sharing)** 
+**[Capstone Proposal](https://docs.google.com/document/d/1788OmDjax1b34x0jYtJY7ntI1bPtf0rNsJs-Ii6lIrY/edit?usp=sharing)**
 
 ## Setup Instructions / Specs
 
@@ -19,7 +19,6 @@ _Hello the sight on this page is meant to show an interactive and fun set of dat
 3. View the project with your preferred IDE.
 4. Open terminal into birds-of-paradise and run: `npm install` <br>then: `npm start`
 5. A new tab should open in your browser and boom you're ready to use the project!
-
 
 ### Specs
 
@@ -42,8 +41,13 @@ There are no known bugs at the time of this update.
 * React Redux
 * Javascript
 * Node Package Manager
-
 * eBird API
+
+## Research Log
+
+### 7/24/2020
+
+* 8:15 - 8:43 Lookup and receive successful query responses for eBirb: region info, subregion list, and recent observations in a region.
 
 ### License
 
