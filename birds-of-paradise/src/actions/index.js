@@ -14,7 +14,7 @@ export const getSightingsFailure = (error) => ({
   error
 });
 
-export const sightingsByRegion = () => {
+export const fetchKingCounty = () => {
   return dispatch => {
     dispatch(requestSightings);
     return fetch('https://api.ebird.org/v2/data/obs/US-WA-033/recent', {headers: {'X-eBirdApiToken': `${process.env.REACT_APP_API_KEY}`}})

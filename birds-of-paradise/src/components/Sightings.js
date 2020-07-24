@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { sightingsByRegion } from '../actions/index';
+import { fetchKingCounty } from '../actions/index';
 
 class Sightings extends React.Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class Sightings extends React.Component {
 
   componentDidMount() {
     const { dispatch } = this.props;
-    dispatch(sightingsByRegion());
+    dispatch(fetchKingCounty());
   }
 
   render() {
