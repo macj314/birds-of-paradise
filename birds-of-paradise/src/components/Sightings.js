@@ -22,7 +22,7 @@ class Sightings extends React.Component {
       console.log(sightings);
       return (
         <React.Fragment>
-          <h2></h2>
+          {/* <h2></h2> */}
           <ol>
             {sightings.map((sighting, index) =>
               <li key={index}>
