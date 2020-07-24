@@ -4,6 +4,7 @@ export const requestSightings = () => ({
   type: c.REQUEST_SIGHTINGS
 });
 
+//Maybe put graph info here
 export const getSightingsSuccess = (sightings) => ({
   type: c.GET_SIGHTINGS_SUCCESS,
   sightings
