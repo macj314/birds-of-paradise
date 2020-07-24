@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux';
 import { fetchKingCounty } from '../actions/index';
+// import "~react-vis/dist/style";
 
 class Sightings extends React.Component {
   constructor(props) {
