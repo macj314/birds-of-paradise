@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux';
 import { fetchKingCounty } from '../actions/index';
-import {XYPlot, XAxis, YAxis, HorizontalGridLines, VerticalBarSeries} from 'react-vis';
+import {XYPlot, MarkSeries} from 'react-vis';//HorizontalGridLines, XAxis, YAxis, BarSeries
 // import cx from 'classnames';
 // import "~react-vis/dist/style";
 
@@ -17,6 +17,13 @@ class Sightings extends React.Component {
 
   render() {
     const { error, isLoading, sightings } = this.props;
+    const Data = [
+      {x: 1, y: 10, size: 30},
+      {x: 1.7, y: 12, size: 10},
+      {x: 2, y: 5, size: 1},
+      {x: 3, y: 15, size: 12},
+      {x: 2.5, y: 7, size: 4}
+    ]
     if(error) {
       return <React.Fragment>Error: {error.message}</React.Fragment>;
     } else if (isLoading) {
@@ -30,18 +37,14 @@ class Sightings extends React.Component {
           
             {sightings.map((sighting, index) =>
               <li key={index}>
-                <XYPlot
-                  width={300}
-                  height={300}>
-                  <VerticalBarSeries
-                    data={[
-                      {x: 'A', y: 10},
-                      {x: 'B', y: 5},
-                      {x: 'C', y: 15}
-                    ]}/>
-                  <XAxis />
-                  <YAxis />
-                </XYPlot>
+    <XYPlot
+      width={300}
+      height={300}>
+      <MarkSeries
+        className="mark-series-example"
+        sizeRange={[5, 15]}
+        data={Data}/>
+    </XYPlot>
                 <h3>Common Name: {sighting.comName}</h3>
                 <h3>Sighting Location: {sighting.locName}</h3>
                 <h4>Date: {sighting.obsDt}</h4>
