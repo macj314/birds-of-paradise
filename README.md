@@ -41,7 +41,7 @@ There are no known bugs at the time of this update.
 * React Redux
 * Javascript
 * Node Package Manager
-* eBird API
+* eBird API: [Official Website](https://www.birds.cornell.edu/home)
 
 ### Research Log
 <span style="font-family:Cambria">
@@ -55,7 +55,4 @@ There are no known bugs at the time of this update.
 
 This software is licensed under the MIT license.
 
-All services and content are owned by Cornell Lab of Ornithology.<br>
-*[Official Website](https://www.birds.cornell.edu/home)* 
-
-Copyright (c) 2020 **_Cornell Lab of Ornithology_**, & **_Jason Macie_**
+Copyright (c) 2020 **_Jason Macie_**
