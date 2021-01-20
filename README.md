@@ -38,11 +38,12 @@ There are no known bugs at the time of this update.
 
 ## Technologies Used
 
-* React Redux
+* React
 * Javascript
 * Node Package Manager
 * eBird API: [Official Website](https://www.birds.cornell.edu/home)
 
+<<<<<<< HEAD
 ### Research Log
 <span style="font-family:Cambria">
 #### 7/24/2020
@@ -51,8 +52,15 @@ There are no known bugs at the time of this update.
 * 1:30pm - 1:40pm Research data visualization libraries for React.
 </span>
 
+=======
+>>>>>>> master
 ### License
 
 This software is licensed under the MIT license.
 
+<<<<<<< HEAD
 Copyright (c) 2020 **_Jason Macie_**
+=======
+All services and content are owned by Cornell Lab of Ornithology.<br>
+*[Official Website](https://www.birds.cornell.edu/home)* 
+>>>>>>> master
