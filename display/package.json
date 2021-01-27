@@ -8,15 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD:birds-of-paradise/package.json
-    "react-redux": "^7.1.3",
     "react-scripts": "3.4.1",
-    "react-vis": "^1.11.7",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
-=======
-    "react-scripts": "3.2.0"
->>>>>>> master:display/package.json
+    "react-vis": "^1.11.7"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./Header";
+import map from '../counties-map.jpg'
+// import Header from "./Header";
 import Sightings from "./Sightings";
 // import SightingsControl from "./SightingsControl";
 
 function App(){
   return ( 
     <React.Fragment>
-      <Header />
+      <img src={map} className="App-map" alt="map" />
+      {/* <Header /> */}
       <Sightings />
     </React.Fragment>
   );
