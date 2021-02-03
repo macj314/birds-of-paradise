@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import map from '../counties-map.jpg';
-// import Header from "./Header";
+import SearchBar from './SearchBar';
 import Sightings from "./SightingList";
+// import Header from "./Header";
 // import SightingsControl from "./SightingsControl";
 import './App.css';
 
@@ -30,7 +31,10 @@ function App(){
   return ( 
     <React.Fragment>
       <img src={map} className="App-map" alt="map" />
-      {/* <Header /> */}
+      <SearchBar>
+        {/* input={input} 
+        onChange={updateInput} */}
+      </SearchBar>
       <Sightings isLoading={isLoading} items={items} />
     </React.Fragment>
   );
