@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import map from '../counties-map.jpg';
-import SearchBar from './SearchBar';
-import Sightings from "./SightingList";
-// import Header from "./Header";
-// import SightingsControl from "./SightingsControl";
-import './App.css';
+// import SearchBar from './Search';
+import Sightings from './SightingList';
+import Header from './Header';
 
 function App(){
   const [items, setItems] = useState([])
@@ -30,11 +28,9 @@ function App(){
   }, [])
   return ( 
     <React.Fragment>
+      <Header/>
+      {/* <SearchBar/> */}
       <img src={map} className="App-map" alt="map" />
-      <SearchBar>
-        {/* input={input} 
-        onChange={updateInput} */}
-      </SearchBar>
       <Sightings isLoading={isLoading} items={items} />
     </React.Fragment>
   );
