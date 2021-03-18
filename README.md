@@ -6,11 +6,7 @@
 
 ## Description
 
-_Hello the sight on this page is meant to show an interactive and fun set of data of birds! Many of us are looking for new things to do at this time as we cannot do all the things we would normally do. I enjoy the sight of birds and would love to make information about them a bit more approachable for people._
-
-**[Capstone Proposal](https://docs.google.com/document/d/1788OmDjax1b34x0jYtJY7ntI1bPtf0rNsJs-Ii6lIrY/edit?usp=sharing)**
-
-## Setup Instructions / Specs
+_Hello the sight on this page is meant to show an interactive and fun set of data of birds in the Washington area! Many of us are looking for new things to do at this time as we cannot do all the things we would normally do. I enjoy the sight of birds and would love to make information about them a bit more approachable for people._
 
 ### Setup/Installation Instructions
 
@@ -24,7 +20,7 @@ _Hello the sight on this page is meant to show an interactive and fun set of dat
 
 #### MVP
 
-1. Retrieve information on local bird sightings (At least in the Washington state area).
+1. Retrieve information on local bird sightings.
 2. Display information to user.
 3. Give users a way to parse through data. A way to search for a species of bird, or other properties.
 
@@ -42,25 +38,3 @@ There are no known bugs at the time of this update.
 * Javascript
 * Node Package Manager
 * eBird API: [Official Website](https://www.birds.cornell.edu/home)
-
-<<<<<<< HEAD
-### Research Log
-<span style="font-family:Cambria">
-#### 7/24/2020
-
-* 8:15am - 8:43am Lookup and receive successful query responses for eBirb: region info, subregion list, and recent observations in a region.
-* 1:30pm - 1:40pm Research data visualization libraries for React.
-</span>
-
-=======
->>>>>>> master
-### License
-
-This software is licensed under the MIT license.
-
-<<<<<<< HEAD
-Copyright (c) 2020 **_Jason Macie_**
-=======
-All services and content are owned by Cornell Lab of Ornithology.<br>
-*[Official Website](https://www.birds.cornell.edu/home)* 
->>>>>>> master
